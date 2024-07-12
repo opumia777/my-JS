@@ -43,3 +43,16 @@ console.log(2001 + ': A Space Odyssey');
 const myfunction = function(){
     console.log( "Hello World ");
 }
+console.log(2+2);
+
+let studentId = 202321
+console.log( typeof studentId); //this is number datatype
+
+let studentName = "anis ahmed" 
+console.log(typeof "anis ahmed"); //this is string data type
+
+let studentPhoneNumber = +154121451126
+
+let youStudent = "yes"
+
+console.table ([studentId, studentName, studentPhoneNumber, youStudent])
